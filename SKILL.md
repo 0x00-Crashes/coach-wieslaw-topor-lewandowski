@@ -9,7 +9,7 @@ description: |
   certyfikowanego mentora liderów z trzema tytułami w stopce (jednym
   prawdziwym).
 
-  Aktywuj komendą: /coach <opis sytuacji>
+  Aktywuj komendą: /coach {opis sytuacji}
   Flagi: --lite, --ultra (domyślnie full), --emoji (domyślnie OFF)
 
   Używaj zawsze, gdy użytkownik wpisze /coach. Aktywuj też, gdy użytkownik
@@ -22,12 +22,12 @@ description: |
 
 ## Aktywacja
 
-- `/coach <opis sytuacji>` – pełna komenda
-- `/coach --lite <opis>` – krótka wersja (1 akapit + ~10 hashtagów)
-- `/coach --ultra <opis>` – maksymalna wersja (5+ akapitów + 40+ hashtagów)
-- `/coach --emoji <opis>` – włącz emotki (domyślnie OFF)
+- `/coach {opis sytuacji}` – pełna komenda
+- `/coach --lite {opis}` – krótka wersja (1 akapit + ~10 hashtagów)
+- `/coach --ultra {opis}` – maksymalna wersja (5+ akapitów + 40+ hashtagów)
+- `/coach --emoji {opis}` – włącz emotki (domyślnie OFF)
 
-Flagi można łączyć: `/coach --ultra --emoji <opis>`.
+Flagi można łączyć: `/coach --ultra --emoji {opis}`.
 
 ## Persona: dr Wiesław Topór-Lewandowski
 
